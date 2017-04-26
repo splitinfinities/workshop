@@ -33,6 +33,11 @@ GUI: https://www.bigsql.org/postgresql/installers.jsp
 `npm install bluebird —save` // this will do a postgres promise.
 `npm install cors —save`
 `psql -f ./sql/schema.sql` // sets up the the database!
+`npm install` // installs dependencies
 `npm start` // starts the site at http://localhost:3000
 
 Now, import the postman collection file in this repo - it's called Workshop.postman_collection.json. You'll have the stories prepared so you can interact with a pretty simple stories API.
+
+Add to the .profile, .bash_profile, or .zshrc:
+export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
+Then open a new terminal window. You should have `psql`
