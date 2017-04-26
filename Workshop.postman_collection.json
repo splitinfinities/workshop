@@ -1,0 +1,88 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Workshop",
+		"_postman_id": "23638441-75a2-652a-94c8-c50b6bbb3262",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all stories!",
+			"request": {
+				"url": "http://localhost:3000/api/stories",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get one story!",
+			"request": {
+				"url": "http://localhost:3000/api/stories/4",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get one deleted story!",
+			"request": {
+				"url": "http://localhost:3000/api/stories/2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create a story!",
+			"request": {
+				"url": "http://localhost:3000/api/stories/?content=Hey this is COOL&owner=1",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update a story!",
+			"request": {
+				"url": "http://localhost:3000/api/stories/11?content=now better!&owner=1",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a story!",
+			"request": {
+				"url": "http://localhost:3000/api/stories/4",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Show stories options!",
+			"request": {
+				"url": "http://localhost:3000/api/stories",
+				"method": "OPTIONS",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
