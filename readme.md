@@ -37,7 +37,7 @@ This is the place to get started, if you've checked out this repo!
 
 Add to the .profile, .bash_profile, or .zshrc:
 
-`export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"`
+`export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"`
 Then open a new terminal window. You should have `psql`
 
 `psql -f ./sql/schema.sql` // sets up the the database!
