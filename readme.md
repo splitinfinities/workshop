@@ -27,7 +27,7 @@ GUI: https://www.bigsql.org/postgresql/installers.jsp
 
 <hr />
 
-```
+```bash
 npm install express-generator --global
 express workshop
 npm install pg-promise —save // this handles communication with postgres.
