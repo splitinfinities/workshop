@@ -27,12 +27,14 @@ GUI: https://www.bigsql.org/postgresql/installers.jsp
 
 <hr />
 
-`npm install express-generator --global`
-`express workshop`
-`npm install pg-promise —save` // this handles communication with postgres.
-`npm install bluebird —save` // this will do a postgres promise.
-`npm install cors —save`
-`psql -f ./sql/schema.sql` // sets up the the database!
-`npm start` // starts the site at http://localhost:3000
+```bash
+npm install express-generator --global
+express workshop
+npm install pg-promise —save # this handles communication with postgres.
+npm install bluebird —save # this will do a postgres promise.
+npm install cors —save
+psql -f ./sql/schema.sql # sets up the the database!
+npm start # starts the site at http://localhost:3000
+```
 
 Now, import the postman collection file in this repo - it's called Workshop.postman_collection.json. You'll have the stories prepared so you can interact with a pretty simple stories API.
